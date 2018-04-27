@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogue>
+   <node>
+      <npctext>...ooom namo narayana... ooom namo narayanaa...</npctext>
+      <answers>
+         <answer tonode="1">
+            <text>ghm... Hello!</text>
+         </answer>
+         <answer tonode="2">
+            <text>baba nam kevalam</text>
+         </answer>
+        <answer tonode="7" needquestvalue = "2" questvalue = "3">
+            <text>I've got it!</text>
+            <questname>HolyKljocka</questname>
+         </answer>
+        <answer>
+            <text>(go away)</text>
+            <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+    <node>
+      <npctext>...ooom namo narayana... ooom namo narayanaa...</npctext>
+      <answers>
+         <answer tonode="0">
+            <text>Do you hear me ?</text>
+         </answer>
+      </answers>
+   </node>
+   <node>
+      <npctext>Kevalam baba nam... Nice to meet you, young fella, can i help you ?</npctext>
+      <answers>
+         <answer tonode="3" needquestvalue = "0">
+            <text>Yes, i need pass to the temple.</text>
+            <questname>HolyKljocka</questname>
+         </answer>
+         <answer tonode="5" needquestvalue = "1">
+            <text>Remind me please, where i can find the kljocka ?</text>
+               <questname>HolyKljocka</questname>
+         </answer>
+         <answer tonode="4">
+            <text>Maybe you can help me with my hands ?</text>
+         </answer>
+         <answer>
+            <text>no fear...</text>
+            <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+   <node>
+      <npctext>Unfortunately it's unpossible now, someone stole the holy-kljocka! Help us retrieve it to restore our temple.</npctext>
+      <answers>
+         <answer tonode="5">
+            <text>Where i can find it ?</text>
+         </answer>
+         <answer tonode="6" questvalue = "1">
+            <text>Ok, i'll bring it back!</text>
+            <questname>HolyKljocka</questname>
+         </answer>
+         <answer>
+            <text>Forget it...</text>
+            <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+   <node>
+      <npctext>No, you already have all inside you to solve this problem by itself.</npctext>
+      <answers>
+         <answer tonode="2">
+            <text>clear...</text>
+         </answer>
+      </answers>
+   </node>
+    <node>
+      <npctext>There's a rumor abroad, someone saw it in the wild forest.</npctext>
+      <answers>
+         <answer tonode="3" needquestvalue = "0">
+            <text>Ok</text>
+               <questname>HolyKljocka</questname>
+         </answer>
+        <answer tonode="2" needquestvalue = "1">
+            <text>Sure</text>
+               <questname>HolyKljocka</questname>
+                   <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+    <node>
+      <npctext>God bless you, be carefull, red lights can kill you...</npctext>
+      <answers>
+         <answer>
+            <text>I'll do my best.</text>
+            <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+    <node>
+      <npctext>Aliluya! Thank you, great man!</npctext>
+      <answers>
+         <answer>
+            <text>Not at all, take me to the temple!</text>
+            <dialend>true</dialend>
+         </answer>
+      </answers>
+   </node>
+</dialogue>
